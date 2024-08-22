@@ -1,0 +1,10 @@
+com\mycompany\everythingabstract\EverythingAbstract.class
+com\mycompany\everythingabstract\Sexo.class
+com\mycompany\everythingabstract\PrestacaoServico.class
+com\mycompany\everythingabstract\Endereco.class
+com\mycompany\everythingabstract\Fisica.class
+com\mycompany\everythingabstract\UnidadeFederativa.class
+com\mycompany\everythingabstract\Cliente.class
+com\mycompany\everythingabstract\EstadoCivil.class
+com\mycompany\everythingabstract\Juridica.class
+com\mycompany\everythingabstract\PessoaAbstract.class

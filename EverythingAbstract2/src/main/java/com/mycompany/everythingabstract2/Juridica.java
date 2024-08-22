@@ -31,7 +31,7 @@ public abstract class Juridica extends PessoaAbsctract{
     public String toString() {
         return super.toString() +
                 "\nCnpj: " + cnpj + 
-                "\nInscricaoEstadual:^" + inscricaoEstadual;
+                "\nInscricaoEstadual: " + inscricaoEstadual;
     }
     
 }

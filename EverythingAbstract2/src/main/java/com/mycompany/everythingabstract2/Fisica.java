@@ -36,8 +36,8 @@ public abstract class Fisica extends PessoaAbsctract{
     @Override
     public String toString() {
         return super.toString() +
-                "\nSexo: " + sexo + 
-                "\nEstadocivil: " + estadocivil + 
+                "\nSexo: " + sexo.getTexto() +
+                "\nEstadocivil: " + estadocivil.getTexto() +
                 "\nDatanascimento: " + datanascimento;
     }
     

@@ -52,12 +52,12 @@ public class Endereco {
 
     @Override
     public String toString() {
-        return  "\nLogradouro: " + logradouro + 
-                "\nNumero: " + numero + 
-                "\nComplemento: " + complemento + 
-                "\nCep: " + cep + 
-                "\nCidade: " + cidade + 
-                "\nUf: " + uf;
+        return  "\nLogradouro: " + logradouro +
+                "\nNumero: " + numero +
+                "\nComplemento: " + complemento +
+                "\nCep: " + cep +
+                "\nCidade: " + cidade +
+                "\nUf: " + uf.getNome();
     }
     
     

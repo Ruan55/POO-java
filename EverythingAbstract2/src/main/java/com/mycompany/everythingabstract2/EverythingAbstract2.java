@@ -17,13 +17,13 @@ public class EverythingAbstract2 {
     new Endereco("Rua 213", "22", "N/A", "32132", "São Paulo", UnidadeFederativa.SAO_PAULO));
     Fornecedor fornecedor1 = new Fornecedor("Placa de video", "312321", "231312", 7688, "Caio", "3212-0343", "Caaw@gmail.com",
     new Endereco("Rua 23", "432", "N/A", "12321", "São Paulo", UnidadeFederativa.SAO_PAULO));
-    Engenheiro engenheiro1 = new Engenheiro("3123", "31231", "321312", "321312", Setor.ENGENHARIA, 3213, 321, "Diego", "3213-3213", "Di1@gmail.com",
-    new Endereco("Rua 21", "32", "N/A", "32132", "Maringá", UnidadeFederativa.RIO_DE_JANEIRO));
-    Medico medico1 = new Medico("3123", "32132", "453543", "23432", Setor.SAUDE, 5767, 3334, "Luana", "3231-3123", "Lu12@gmail.com",
-    new Endereco("Rua B", "32", "N/A", "31231", "Salvador", UnidadeFederativa.BAHIA));
-    Advogado advogado1 = new Advogado("31231", "31231", "31233", "31231", Setor.JURIDICO, 3123, 766, "Ronald", "6787-2344", "R9@gmail.com",
-    new Endereco("Rua C", "76", "N/A", "32132", "Salvador", UnidadeFederativa.BAHIA));
-    
+    Engenheiro engenheiro1 = new Engenheiro(Sexo.MASCULINO, EstadoCivil.SOLTEIRO, "03/06/1999", 2133, "Diego", "3213-6787", "Di1@gmail.com",
+    new Endereco("Rua 21", "32", "N/A", "32132", "Maringá", UnidadeFederativa.RIO_DE_JANEIRO), "3213213", "31232", "13213", Setor.ENGENHARIA, 2321, "31231");
+    Medico medico1 = new Medico(Sexo.FEMININO, EstadoCivil.CASADO, "02/03/1981", 3233, "Luana", "3322-5765", "Lu12@gmail.com",
+    new Endereco("Rua B", "32", "N/A", "31231", "Salvador", UnidadeFederativa.BAHIA), "23132123", "321323", "21321", Setor.SAUDE, 3213, "2321");
+    Advogado advogado1 = new Advogado(Sexo.MASCULINO, EstadoCivil.DIVORCIADO, "05/03/1978", 5677, "Ronald", "3123-3543", "R9@gmail.com",
+    new Endereco("Rua C", "76", "N/A", "32132", "Salvador", UnidadeFederativa.BAHIA), "31236546", "6575232", "4563654", Setor.JURIDICO, 21323, "53456");
+
         System.out.println(cliente1.toString());
         System.out.println(prestacaoServico1.toString());
         System.out.println(fornecedor1.toString());

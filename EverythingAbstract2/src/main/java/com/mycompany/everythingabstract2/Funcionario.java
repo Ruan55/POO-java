@@ -8,16 +8,16 @@ package com.mycompany.everythingabstract2;
  *
  * @author Aluno
  */
-public abstract class Funcionario extends PessoaAbsctract{
-    
-   protected String cpf;
-   protected String rg;
-   protected String matricula;
-   protected Setor setor;
-   protected double salario;
+public abstract class Funcionario extends Fisica{
 
-    public Funcionario(String cpf, String rg, String matricula, Setor setor, double salario, int id, String nome, String telefone, String email, Endereco endereco) {
-        super(id, nome, telefone, email, endereco);
+    protected String cpf;
+    protected String rg;
+    protected String matricula;
+    protected Setor setor;
+    protected double salario;
+
+    public Funcionario(Sexo sexo, EstadoCivil estadocivil, String datanascimento, int id, String nome, String telefone, String email, Endereco endereco, String cpf, String rg, String matricula, Setor setor, double salario) {
+        super(sexo, estadocivil, datanascimento, id, nome, telefone, email, endereco);
         this.cpf = cpf;
         this.rg = rg;
         this.matricula = matricula;
@@ -48,13 +48,11 @@ public abstract class Funcionario extends PessoaAbsctract{
     @Override
     public String toString() {
         return super.toString() +
-                "\nCpf: " + cpf + 
-                "\nRg: " + rg + 
-                "\nMatricula: " + matricula + 
-                "\nSetor: " + setor + 
+                "\nCpf: " + cpf +
+                "\nRg: " + rg +
+                "\nMatricula: " + matricula +
+                "\nSetor: " + setor.getNome() +
                 "\nSalario: " + salario;
     }
-    
-    
-    
+
 }

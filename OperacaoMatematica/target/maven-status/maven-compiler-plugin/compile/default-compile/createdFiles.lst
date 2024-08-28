@@ -1,0 +1,6 @@
+com\mycompany\operacaomatematica\OperacaoMatematica.class
+com\mycompany\operacaomatematica\Soma.class
+com\mycompany\operacaomatematica\Subtracao.class
+com\mycompany\operacaomatematica\Divisao.class
+com\mycompany\operacaomatematica\InterfaceOperacaoMatematica.class
+com\mycompany\operacaomatematica\Multiplicacao.class

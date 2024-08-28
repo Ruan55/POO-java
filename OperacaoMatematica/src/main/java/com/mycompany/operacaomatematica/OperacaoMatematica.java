@@ -16,7 +16,7 @@ public class OperacaoMatematica {
     Multiplicacao multiplicacao1 = new Multiplicacao();
     Divisao divisao1 = new Divisao();
     
-        System.out.println("+" + soma1.calcular(2 ,2));
+        System.out.println(soma1.calcular(2 ,2));
         System.out.println(subtracao1.calcular(2, 2));
         System.out.println(multiplicacao1.calcular(2,2));
         System.out.println(divisao1.calcular(2, 2));
